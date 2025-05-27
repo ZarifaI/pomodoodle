@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background: #fff4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #d67496;
+}
+
+.main-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timer-box, .doodle-box {
+  background-color: #ffe3ec;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.time {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #4a4a4a;
+}
+
+button {
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 20px;
+  margin: 0.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+
+canvas {
+  background: #fff;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.tools {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tools button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0 0.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button-pink {
+  background: #ffe5ee;
+  color: #d85c8c;
+}
+
+.button-blue {
+  background: #dceeff;
+  color: #3b5998;
+}
+
+.button-red {
+  background: #ffe4e1;
+  color: #c94d4d;
+}
+
+.button-mint {
+  background: #d7fff1;
+  color: #3a7669;
+}
+
+.button-purple {
+  background: #ede1ff;
+  color: #6c5ecf;
+}
